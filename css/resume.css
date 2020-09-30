@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+.color-blue {
+    color: #0E6EB8 !important;
+}
+
+html {
+    font-size: 1vw;
+}
+
+a {
+    color: black;
+}
+
+.main-container {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.print-seg {
+    height: calc(70vw * 297/210);
+    overflow: hidden;
+}
+
+.name-header {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h1.ui.header {
+    font-size: 5rem;
+    font-family: "Bitter";
+}
+
+.designation-label {
+    font-size: 1.2rem !important;
+    font-weight: 700;
+}
+
+.main-grid {
+    height: 100%;
+    padding-top: 4rem !important;
+    padding-bottom: 18rem !important;
+}
+
+.rcolpad {
+    padding-left: 4rem !important;
+    padding-right: 0rem !important;
+}
+
+.lcolpad {
+    padding-left: 0rem !important;
+    padding-right: 4rem !important;
+}
+
+.section h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.spaced {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.bit-spaced {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.more-spaced {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.float-container {
+    height: 1.75rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.f-5 {
+    font-size: 0.95rem;
+}
+
+.f-10 {
+    font-size: 0.9rem;
+}
+
+.f5 {
+    font-size: 1.05rem;
+}
+
+.fthin {
+    font-weight: 100;
+}
+
+.fbold {
+    font-weight: 700;
+}
+
+.mt2 {
+    margin-top: 0.2rem;
+}
+
+.mt4 {
+    margin-top: 0.4rem;
+}
+
+.mt-2 {
+    margin-top: -0.2rem;
+}
+
+.mb7 {
+    margin-bottom: 0.7rem;
+}
+
+.mb10 {
+    margin-bottom: 1rem;
+}
+
+.mb15 {
+    margin-bottom: 1.5rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 5vh;
+    right: -0.2vw;
+}
+
+@media only screen and (max-width: 745px) {
+
+    html {
+        font-size: 1.2vw;
+    }
+
+    .main-container {
+        margin-left: 7.5vw;
+        margin-right: 7.5vw;
+    }
+
+    .print-seg {
+        height: calc(85vw * 297/210);
+    }
+
+}
+
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+    body * { visibility: hidden; }
+    #print-area * { visibility: visible; }
+    html {
+        font-size: 1.45vw;
+    }
+    .main-container {
+        margin: 0;
+    }
+    .print-seg {
+        height: calc(100vw * 297/210);
+    }
+    .name-header {
+        margin-top: 2rem;
+    }
+}
