@@ -1,0 +1,147 @@
+{
+    "contacts":[
+        {
+            "icon":"phone",
+            "text":"+91 9909966560",
+        },
+        {
+            "icon":"globe",
+            "text":"karan0805.github.io",
+            "url":"https://karan0805.github.io/portfolio/"
+        },
+        {
+            "icon":"envelope",
+            "text":"karangandhi.navsari@gmail.com",
+            "url":"mailto:karangandhi.navsari@gmail.com"
+        },
+        {
+            "icon":"linkedin",
+            "text":"linkedin.com/in/karan0805",
+            "url":"https://www.linkedin.com/in/karan0805/"
+        },
+        {
+            "icon":"github",
+            "text":"github.com/karan0805",
+            "url":"https://github.com/karan0805"
+        },
+        {
+            "icon":"h square",
+            "text":"hackerone.com/karan0805",
+            "url":"https://hackerone.com/karan0805"
+        },
+        {
+            "icon":"closed captioning",
+            "text":"codechef.com/users/mr_coder_0805",
+            "url":"https://www.codechef.com/users/mr_coder_0805"
+        },
+        {
+            "icon":"h square",
+            "text":"hackerrank.com/karan0805",
+            "url":"https://www.hackerrank.com/karan0805"
+        }
+    ],
+    "skills":[
+        {
+            "type":"Technical",
+            "value":[
+                "C++, Python, Java, Javascript",
+                "React, Django",
+                "Data Structures and Algorithms",
+                "Penetration Testing",
+                "Web Development",
+                "Competitive Programming",
+                "Database System"
+            ]
+        },
+        {
+            "type":"Non–Technical",
+            "value":[
+                "Problem Solving",
+                "Strategic Planning",
+                "Leadership",
+                "Teamwork",
+                "Time management"
+            ]
+        }
+    ],
+    "experiences":[
+        {
+            "role":"Security Analyst",
+            "firm":"Hackerone.com and Bugcrowd.com",
+            "duration":"Dec 2019 – Present",
+            "work":"Reporting and participating in Bug-Bounty Programs."
+        }
+    ],
+    "education":[
+        {
+            "degree":"Bachelor of Engineering, Computer Science",
+            "school":"D.Y Patil College of Engineering, Akurdi",
+            "duration":"2018 – present",
+            "gradetype":"CGPA",
+            "gradevalue":"9.34"
+        },
+        {
+            "degree":"Higher Secondary Certificate",
+            "school":"A B Higher Secondary High School, Navsari",
+            "duration":"2016 – 2018",
+            "gradetype":"Score",
+            "gradevalue":"87.54%"
+        }
+    ],
+    "projects":[
+        {
+            "name":"Cybercafe Management System",
+            "descr":"A full functioning model of cybercafe management made in cpp language.",
+            "for":"Second Year Miniproject",
+            "year":"2019",
+            "link":"https://github.com/karan0805/SE-minproject"
+        },
+        {
+            "name":"Small Frontend Projects",
+            "descr":"Single Functionality webpages and some fun games.",
+            "for":"Brushing up Javascript during lockdown.",
+            "year":"2020",
+            "link":"https://github.com/karan0805/"
+        },
+                {
+            "name":"Hire-Me - Recruitment Database Management System",
+            "descr":"A GUI based Management System made in Tkinter and Python.",
+            "for":"Third Year DBMS Miniproject.",
+            "year":"2020",
+            "link":"yet to upload..."
+        },
+                {
+            "name":"Path-Finding Visualizer",
+            "descr":"A cool GUI based path-finding visualizer made in Pygame and Python.",
+            "for":"Third Year SDL Miniproject.",
+            "year":"2020",
+            "link":"https://github.com/karan0805/Path-Finding-Visualizer"
+        }
+
+    ],
+    "responsibilities":[
+        {
+            "of":"ACM Pradnyan",
+            "role":"Treasurer",
+            "duration":"Sep 2020 – Present"
+        },
+        {
+            "of":"ACES DYPCOE",
+            "role":"Editing Team Lead",
+            "duration":"Sep 2020 – Present"
+        },
+        {
+            "of":"Media-cell DYPCOE",
+            "role":"Editing Team Member",
+            "duration":"Feb 2020 – Present"
+        }
+    ],
+    "achievements":[
+        "HackerRank – 6 ☆☆☆☆☆☆ in Problem Solving",
+        "Codechef – 3 ☆☆☆",
+        "Top 200 Teams in MHRD Samadhan 2020 Challenge",
+        "More than 5 Appreciation letter from NCIIPC.gov.in to secure Govt. of India",
+        "2nd Prize in Project Presentation at CSI Regional Convention, New Delhi. ",
+        "A lot More to come :)"
+    ]
+}
