@@ -183,7 +183,7 @@ function prepareData() {
             preparePage(json);
         })
         .fail(function() {
-            $.getJSON('./data/fallback_resume_data.json', function(json) {
+            $.getJSON('local_resume_data.json', function(json) {
                 preparePage(json);
             });
         });
