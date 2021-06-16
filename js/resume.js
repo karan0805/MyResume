@@ -150,7 +150,7 @@ function addDownloadWIPModal() {
         <div class="ui mini modal downloadwip">
             <div class="header">Download</div>
             <div class="content">
-                <div>Download resume is WIP</div>
+                <div>Download resume is temporarily not available due to updated CORS Policy</div>
                 <div>For now click Print>'Save as PDF'</div>
             </div>
             <div class="actions">
