@@ -178,7 +178,7 @@ function setupMenu() {
 }
 
 function prepareData() {
-    $.getJSON("https://gist.githubusercontent.com/karan0805/ef92455e063029094356d2bb676f2cdc/raw/3fe7f61ef1d5f2b5bcb3f93af443443238bf2d91/resumedata.json")
+    $.getJSON("https://gist.githubusercontent.com/karan0805/ef92455e063029094356d2bb676f2cdc/raw/ab9f8d7e8eef7ed0efd3fd8fa51e23f8c79931c7/resumedata.json")
         .done(function(json) {
             preparePage(json);
         })
